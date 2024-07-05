@@ -1,0 +1,22 @@
+.review-page {
+  background-color: white;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.review-container {
+  padding: 20px;
+  max-width: 800px;
+  color: black;
+}
+
+.review-container h1 {
+  margin-bottom: 20px;
+}
+
+.review-container p {
+  font-size: 18px;
+}

@@ -1,0 +1,43 @@
+
+.main-image-container {
+  position: relative;
+  margin-bottom: 0;
+}
+
+
+.main-image {
+  width: 100%; 
+  mask-image: linear-gradient(to left, transparent 0%, black 25%, black 75%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to left, transparent 0%, black 25%, black 75%, transparent 100%);
+}
+
+.caption{
+  position: absolute;
+  width: 100%;
+  padding-left: 6%;
+  bottom: 0;
+}
+
+.capt{
+  width: 90%;
+  max-width: 420px;
+  margin-bottom: 40px;
+}
+
+.caption p{
+  max-width: 700px;
+  font-size: 17px;
+  margin-bottom: 120px;
+  color: white;
+}
+
+.btn-light{
+  position: relative;
+  margin-left: 110px;
+  top: -60px;
+}
+
+.abc{
+  position: relative;
+  margin-left: 30px;
+}
